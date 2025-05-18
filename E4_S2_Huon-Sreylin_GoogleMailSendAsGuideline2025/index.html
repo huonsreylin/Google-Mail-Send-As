@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gmail "Send As" Feature Guide</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Gmail Guide</div>
+            <ul class="nav-links">
+                <li><a href="#overview">Overview</a></li>
+                <li><a href="#setup">Setup</a></li>
+                <li><a href="#usage">Usage</a></li>
+                <li><a href="#tips">Tips</a></li>
+                <li><a href="#faq">FAQ</a></li>
+            </ul>
+            <div class="theme-toggle">
+                <span>🌙</span>
+                <label class="switch">
+                    <input type="checkbox" id="theme-switch" checked>
+                    <span class="slider round"></span>
+                </label>
+                <span>☀️</span>
+            </div>
+        </nav>
+        <div class="hero">
+            <h1>Gmail "Send As" Feature</h1>
+            <p>A comprehensive guide to setting up and using multiple email identities in Gmail</p>
+            <button class="cta-button" onclick="scrollToSection('setup')">Get Started</button>
+        </div>
+    </header>
+
+    <main>
+        <section id="overview" class="section">
+            <div class="container">
+                <h2>What is Gmail's "Send As" Feature?</h2>
+                <div class="feature-card">
+                    <div class="feature-content">
+                        <p>Gmail's "Send As" feature allows you to send emails from different email addresses using your primary Gmail account. This is perfect for managing multiple email identities without having to log in and out of different accounts.</p>
+                        <div class="benefits">
+                            <div class="benefit">
+                                <span class="icon">✉️</span>
+                                <h3>Multiple Identities</h3>
+                                <p>Send emails from personal, work, or other addresses all from one inbox</p>
+                            </div>
+                            <div class="benefit">
+                                <span class="icon">🔄</span>
+                                <h3>Simplified Workflow</h3>
+                                <p>Manage all your communication from a single Gmail interface</p>
+                            </div>
+                            <div class="benefit">
+                                <span class="icon">🔒</span>
+                                <h3>Professional Branding</h3>
+                                <p>Maintain separate identities for different purposes or organizations</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="feature-image">
+                        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgNG0iPSAVHAII8Qr70esPQSWlklLVTUBYIGB5ctNDeueBXgJTfR3s5_qpH744Qu-UJwqBndDp6hqVaOF645lT3dddDSmIGkC2-M3TxaAU3DYvi3qLllUZ30RnmGNaflk1RCahNms2eIbaG6fIxV6nUTrCDL_hmawipqAiVSU-Pi-jMs8TE7E33gdCn/s1000/1.png" alt="Gmail interface overview" class="rounded-image">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="setup" class="section alternate">
+            <div class="container">
+                <h2>Setting Up "Send As" in Gmail</h2>
+                <p class="section-intro">Follow these simple steps to configure additional email addresses in your Gmail account:</p>
+                
+                <div class="steps">
+                    <div class="step" id="step1">
+                        <div class="step-number">1</div>
+                        <div class="step-content">
+                            <h3>Access Gmail Settings</h3>
+                            <p>Click the gear icon in the top right corner of your Gmail interface, then select "See all settings".</p>
+                            <div class="step-image">
+                                <img src="https://kcslab.wordpress.com/wp-content/uploads/2015/10/gmail_settings1.png" alt="Gmail settings gear icon" class="rounded-image">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="step" id="step2">
+                        <div class="step-number">2</div>
+                        <div class="step-content">
+                            <h3>Navigate to Accounts Tab</h3>
+                            <p>Go to the "Accounts and Import" tab in the settings menu.</p>
+                            <div class="step-image">
+                                <img src="https://cdn.prod.website-files.com/60e615980cab093e6f2db3c3/60f1b37212d9fb2a6c63e9e1_impAcct_AccountsTabImportText.png_width_1000_name_impAcct_AccountsTabImportText.png" alt="Accounts and Import tab" class="rounded-image">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="step" id="step3">
+                        <div class="step-number">3</div>
+                        <div class="step-content">
+                            <h3>Add Another Email Address</h3>
+                            <p>In the "Send mail as" section, click on "Add another email address".</p>
+                            <div class="step-image">
+                                <img src="https://www.multimediaxp.com/images/blog/110/images/image-230255-230255.png" alt="Add another email address option" class="rounded-image">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="step" id="step4">
+                        <div class="step-number">4</div>
+                        <div class="step-content">
+                            <h3>Enter Email Details</h3>
+                            <p>Enter your name and the email address you want to add. You can also choose to treat it as an alias.</p>
+                            <div class="step-image">
+                                <img src="https://digitalinspiration.com/docs/assets/images/225149-ab8763ce05b964764c2b9c492c3fce23.png" alt="Enter email details form" class="rounded-image">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="step" id="step5">
+                        <div class="step-number">5</div>
+                        <div class="step-content">
+                            <h3>Configure SMTP Settings</h3>
+                            <p>Enter the SMTP server information for the email provider of your additional address. For example, if adding a Yahoo email, you would use Yahoo's SMTP settings.</p>
+                            <div class="step-image">
+                                <img src="https://blogcdn.gmass.co/blog/wp-content/uploads/2023/08/image5-1.png" alt="SMTP configuration screen" class="rounded-image">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="step" id="step6">
+                        <div class="step-number">6</div>
+                        <div class="step-content">
+                            <h3>Verify Email Address</h3>
+                            <p>Gmail will send a verification code to the email address you're adding. Check that email and enter the verification code to complete the setup.</p>
+                            <div class="step-image">
+                                <img src="https://i.insider.com/5d0bd80497ad766b9b3f4983?width=800&format=jpeg&auto=webp" alt="Verification code entry screen" class="rounded-image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="usage" class="section">
+            <div class="container">
+                <h2>Using the "Send As" Feature</h2>
+                <p class="section-intro">Now that you've set up additional email addresses, here's how to use them:</p>
+
+                <div class="usage-guide">
+                    <div class="usage-step">
+                        <h3>Composing New Emails</h3>
+                        <div class="usage-content">
+                            <div class="usage-text">
+                                <p>When composing a new email, click on the "From" dropdown menu to select which email address you want to send from.</p>
+                                <p>If you don't see the "From" field, click on the "From" link next to the "To" field to display it.</p>
+                            </div>
+                            <div class="usage-image">
+                                <img src="https://theindianwire.com/wp-content/uploads/2019/04/SCHEDULE_SEND_DESKTOP.gif" alt="Compose email with From dropdown" class="rounded-image">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="usage-step">
+                        <h3>Replying to Emails</h3>
+                        <div class="usage-content">
+                            <div class="usage-text">
+                                <p>When replying to an email, Gmail will automatically use the address that received the original email.</p>
+                                <p>You can still change the "From" address by clicking on the dropdown menu in the reply window.</p>
+                            </div>
+                            <div class="usage-image">
+                                <img src="https://blogcdn.gmass.co/blog/wp-content/uploads/2018/06/sendasreplies-choosereplies-tinified.png" alt="Reply email with From dropdown" class="rounded-image">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="usage-step">
+                        <h3>Setting a Default "Send As" Address</h3>
+                        <div class="usage-content">
+                            <div class="usage-text">
+                                <p>You can set any of your added email addresses as the default "From" address for new emails.</p>
+                                <p>Go back to Settings > Accounts and Import > "Send mail as" section, and click "make default" next to the desired email address.</p>
+                            </div>
+                            <div class="usage-image">
+                                <img src="https://howdoi.daemen.edu/wp-content/uploads/sites/16/2018/04/default.png" alt="Make default option in settings" class="rounded-image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="tips" class="section alternate">
+            <div class="container">
+                <h2>Pro Tips & Best Practices</h2>
+                <div class="tips-container">
+                    <div class="tip-card">
+                        <div class="tip-icon">💡</div>
+                        <h3>Create Email Signatures</h3>
+                        <p>Set up different email signatures for each email address to maintain consistent branding. Go to Settings > General > Signature to create multiple signatures.</p>
+                    </div>
+                    <div class="tip-card">
+                        <div class="tip-icon">🏷️</div>
+                        <h3>Use Labels</h3>
+                        <p>Create labels for each email identity to better organize incoming messages related to different addresses.</p>
+                    </div>
+                    <div class="tip-card">
+                        <div class="tip-icon">⚙️</div>
+                        <h3>Check Reply-To Settings</h3>
+                        <p>Configure your "Reply-to" address if you want replies to go to a different email than the one you're sending from.</p>
+                    </div>
+                    <div class="tip-card">
+                        <div class="tip-icon">🔍</div>
+                        <h3>Verify Sending Address</h3>
+                        <p>Always double-check which address you're sending from before sending important emails to avoid confusion.</p>
+                    </div>
+                    <div class="tip-card">
+                        <div class="tip-icon">🔒</div>
+                        <h3>Use App Passwords</h3>
+                        <p>If you have 2-factor authentication enabled on your other email accounts, you may need to generate app passwords for Gmail to access them.</p>
+                    </div>
+                    <div class="tip-card">
+                        <div class="tip-icon">📱</div>
+                        <h3>Mobile App Support</h3>
+                        <p>The "Send As" feature works on the Gmail mobile app too. Tap on your email address when composing to switch between addresses.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="faq" class="section">
+            <div class="container">
+                <h2>Frequently Asked Questions</h2>
+                <div class="faq-container">
+                    <div class="faq-item">
+                        <div class="faq-question" onclick="toggleFAQ(this)">
+                            <h3>Can I use any email address with "Send As"?</h3>
+                            <span class="toggle-icon">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>You can use any email address that you own and have access to. You'll need to verify ownership of the email address during setup, and you may need the SMTP server information for that email provider.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question" onclick="toggleFAQ(this)">
+                            <h3>Will recipients know I'm using Gmail?</h3>
+                            <span class="toggle-icon">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>By default, Gmail adds a "via gmail.com" tag to emails sent using the "Send As" feature. However, if you configure the SMTP settings for your other email address (rather than using Gmail's servers), this tag won't appear.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question" onclick="toggleFAQ(this)">
+                            <h3>Is there a limit to how many email addresses I can add?</h3>
+                            <span class="toggle-icon">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Gmail allows you to add up to 30 additional email addresses to your account using the "Send As" feature.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question" onclick="toggleFAQ(this)">
+                            <h3>Can I use "Send As" with my work email?</h3>
+                            <span class="toggle-icon">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Yes, as long as your work email provider allows SMTP access. Some organizations may have security policies that prevent this, so check with your IT department first.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question" onclick="toggleFAQ(this)">
+                            <h3>What's the difference between "Send As" and "Send mail as"?</h3>
+                            <span class="toggle-icon">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>They refer to the same feature. "Send mail as" is the official name in Gmail settings, while "Send As" is a common shorthand term for the feature.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>Gmail Guide</h2>
+                    <p>Helping you make the most of Gmail's powerful features</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h3>Quick Links</h3>
+                        <ul>
+                            <li><a href="#overview">Overview</a></li>
+                            <li><a href="#setup">Setup Guide</a></li>
+                            <li><a href="#usage">Usage Tips</a></li>
+                            <li><a href="#tips">Best Practices</a></li>
+                            <li><a href="#faq">FAQ</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Resources</h3>
+                        <ul>
+                            <li><a href="#">Gmail Help Center</a></li>
+                            <li><a href="#">Google Workspace</a></li>
+                            <li><a href="#">Email Best Practices</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Gmail Guide. This is an unofficial guide and is not affiliated with Google.</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="scroll-to-top" onclick="scrollToTop()">
+        <span>↑</span>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
